@@ -17,3 +17,6 @@ export const counterSlice = createSlice({
         }
     }
 })
+ //ike we do from a file like dbconnect n all. and here we are extracting from the slice
+export const {increament, decrement, reset} = counterSlice.actions;
+export default counterSlice.reducer;
